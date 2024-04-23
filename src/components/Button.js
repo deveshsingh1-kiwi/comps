@@ -1,4 +1,4 @@
-import className from "classnames";
+import classNames from "classnames";
 
 function Button({
   children,
@@ -11,7 +11,7 @@ function Button({
   rounded,
   ...rest
 }) {
-  const classes = className(
+  const classes = classNames(
     rest.className,
     "flex items-center px-3 py-1.5 border",
     {
